@@ -11,8 +11,7 @@ dbConfig();
 const app = express();
 
 // Allowed origins for CORS
-const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174', 'https://esybilling.netlify.app/'];
-
+const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174', 'https://esybilling.netlify.app'];
 // CORS configuration
 const corsOptions = {
   origin: function (origin, callback) {
